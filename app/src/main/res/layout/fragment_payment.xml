@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.PaymentFragment"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pay_tab"
+            android:contentDescription="TabLayout"
+            android:background="@color/white"
+            app:tabIndicatorColor="@color/black"
+            app:tabMode="fixed"
+            app:tabIndicatorHeight="4dp"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/grey_400"/>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:paddingBottom="@dimen/activity_vertical_margin"-->
+<!--            android:paddingLeft="@dimen/activity_horizontal_margin"-->
+<!--            android:paddingRight="@dimen/activity_horizontal_margin"-->
+<!--            android:paddingTop="@dimen/activity_vertical_margin">-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/btnTakePicture"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:text="take barcode picture" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btnScanBarcode"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/btnTakePicture"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="@dimen/activity_horizontal_margin"-->
+<!--                android:text="scan barcode" />-->
+<!--        </RelativeLayout>-->
+
+
+        <FrameLayout
+            android:id="@+id/pay_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/black"
+                android:src="@drawable/myqr"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="200dp"
+                android:layout_marginBottom="100dp"
+                android:gravity="center|center_horizontal"
+                android:text="UPI ID: \n aditya.ak4747@okhdfc"
+                android:foregroundGravity="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

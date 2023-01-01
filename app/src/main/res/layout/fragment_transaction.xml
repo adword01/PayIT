@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.TransactionFragment"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+<!--            <AutoCompleteTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/bg_filter"-->
+<!--                android:paddingTop="5dp"-->
+<!--                android:paddingStart="16dp"-->
+<!--                android:paddingEnd="10dp"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:paddingBottom="5dp"-->
+<!--                android:drawableEnd="@drawable/ic_arrow_down"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:textSize="12sp"-->
+<!--                android:id="@+id/month"-->
+<!--                android:text="Month"/>-->
+
+<!--            <AutoCompleteTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/bg_filter"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:paddingTop="10dp"-->
+<!--                android:paddingStart="16dp"-->
+<!--                android:paddingEnd="10dp"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:paddingBottom="5dp"-->
+<!--                android:id="@+id/categories"-->
+<!--                android:drawableEnd="@drawable/ic_arrow_down"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:textSize="12sp"-->
+<!--                android:text="Categories"/>-->
+
+<!--            <AutoCompleteTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/bg_filter"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:paddingTop="5dp"-->
+<!--                android:paddingStart="16dp"-->
+<!--                android:paddingEnd="10dp"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:paddingBottom="5dp"-->
+<!--                android:id="@+id/filters"-->
+<!--                android:drawableEnd="@drawable/ic_arrow_down"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:textSize="12sp"-->
+<!--                android:text="Filters"/>-->
+
+        </LinearLayout>
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="@color/black"/>-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/transaction_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scrollbars="vertical" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:background="#00BEEE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="20dp"
+            app:lottie_url="https://assets10.lottiefiles.com/packages/lf20_gGhldR.json"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/qr"
+            app:lottie_loop="true"
+            android:fadingEdgeLength="2dp"/>
+
+<!--        <VideoView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="200dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:id="@+id/videoView"/>-->
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

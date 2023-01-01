@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "729716248678",
+    "project_id": "payit-6e57d",
+    "storage_bucket": "payit-6e57d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729716248678:android:d0c9cd4de453fe1ca45da7",
+        "android_client_info": {
+          "package_name": "com.example.payit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729716248678-f0aj13lumh2dl1br2v8ktev2667c3k9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu1PRFEqqC0nMoA2UJeGgIsxRQf4aiHrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729716248678-f0aj13lumh2dl1br2v8ktev2667c3k9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

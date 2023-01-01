@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="circle_type">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="girls">
+        <item>Priya</item>
+        <item>Dolly</item>
+        <item>Muskan</item>
+        <item>Vaishnavi</item>
+    </string-array>
+
+    <string-array name="boys">
+        <item>Sumit</item>
+        <item>Ujjwal</item>
+        <item>Jaskirat</item>
+        <item>Sukrut</item>
+        <item>Prince</item>
+    </string-array>
+</resources>
