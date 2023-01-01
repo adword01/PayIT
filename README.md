@@ -9,7 +9,7 @@ The app is developed using a combination of Java and XML, with Java providing th
 Overall, the PayIT mobile payments app is a useful tool for businesses and individuals who want to make and receive payments quickly and securely. By using advanced technologies such as biometric authentication and payment gateway integration, the app provides a high level of security and convenience for users.
 
 
-#Createed by Aditya Kumar Singh from IIIT Una 
+#Created by Aditya Kumar Singh from IIIT Una 
 2nd Year (2021-2025)
 
 If you have any Queries, mail it to aditya.ak4747@gmail.com or 21304@iiitu.ac.in
